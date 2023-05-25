@@ -69,7 +69,8 @@ export const config: Config = {
     },
     {
       type: "www",
-      serviceWorker: null
+      serviceWorker: null,
+      copy: [{ src: "pages" }]
     },
     reactOutputTarget({
       componentCorePackage: "@genexus/web-controls-library",

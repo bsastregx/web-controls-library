@@ -167,6 +167,7 @@ export class Button
   }
 
   render() {
+    console.log("this", this);
     // Styling for gx-button control.
     const classes = getClasses(this.cssClass);
 
